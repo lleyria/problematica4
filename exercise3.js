@@ -1,6 +1,6 @@
 //Exercise 3.a//
 var months = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
-console.log(months[5],' ',months[11]);
+console.log(months[4],' ',months[10]);
 
 //Exercise 3.b//
 var months = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];

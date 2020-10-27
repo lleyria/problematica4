@@ -2,7 +2,7 @@
 var a=1.2, b=1, c;
 function sumar (a, b){
     if(a%1==0 && b%1==0){
-        if(a!=Number || b!=Number){
+        if(typerof(a)!=Number || typeof(b)!=Number){
             alert('Uno de los parametros tiene un error');
             return "Nan";
         }else{

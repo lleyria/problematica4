@@ -1,12 +1,16 @@
 //Exercise 5.a
+var show;
 var clubs = ['central', 'independiente', 'boca', 'river', 'racing'];
-    for(var i=0; i<=4; i++){
-        alert(clubs[i]);
+    for(var i=0; i<=clubs.length-1; i++){
+        show=clubs[i];
+        alert(show);
     }
 //Exercise 5.b//
-for(var j=0; j<=4; j++){ 
+var show1;
+for(var j=0; j<=clubs.length-1; j++){ 
     clubs[j]=clubs[j].substring(0,1).toUpperCase() + clubs[j].substring(1).toLowerCase();
-    alert(clubs[j]);
+    show1=clubs[j];
+    alert(show1);
 }
 //Exercise 5.c//
 var sentence = '';
